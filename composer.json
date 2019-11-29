@@ -1,5 +1,5 @@
 {
-  "name": "damienharper/doctrine-audit-bundle",
+  "name": "acathrin/doctrine-audit-bundle",
   "type": "symfony-bundle",
   "description": "This bundle creates audit logs for all doctrine ORM database related changes.",
   "keywords": ["doctrine", "audit"],
@@ -41,9 +41,6 @@
     "phpstan/phpstan-symfony": "^0.11.1",
     "twig/extensions": "^1.5",
     "friendsofphp/php-cs-fixer": "^2.15"
-  },
-  "conflict": {
-    "twig/twig": "<1.40|<2.9"
   },
   "scripts": {
     "test": "php -d pcov.enabled=1 ./vendor/bin/phpunit",
