@@ -45,7 +45,7 @@
     "friendsofphp/php-cs-fixer": "^2.15"
   },
   "conflict": {
-    "twig/twig": "<1.40|<2.9"
+    "twig/twig": "<1.40||<2.9"
   },
   "scripts": {
     "test": "php -d pcov.enabled=1 ./vendor/bin/phpunit",
